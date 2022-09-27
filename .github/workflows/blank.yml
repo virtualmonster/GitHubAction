@@ -1,3 +1,5 @@
+name: OTSAction
+
 on: workflow_dispatch
 
 jobs:

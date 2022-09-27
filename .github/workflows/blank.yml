@@ -4,7 +4,7 @@ on: workflow_dispatch
 
 jobs:
     OTS-Action:
-        runs-on: self-hosted
+        runs-on: ubuntu-latest
         name: HCL OneTest Server
         steps:
          - name: Execute Test

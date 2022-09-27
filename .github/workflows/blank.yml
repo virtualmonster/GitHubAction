@@ -1,7 +1,4 @@
-- name: HCL OneTest Server GitHub Action
-  uses: HCL-TECH-SOFTWARE/onetest-server-action@v1
-
-# on: workflow_dispatch
+on: workflow_dispatch
 
 jobs:
     OTS-Action:

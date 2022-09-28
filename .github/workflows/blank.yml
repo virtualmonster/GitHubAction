@@ -15,4 +15,5 @@ jobs:
             teamspace: "Initial Team Space"
             project: Emerald
             branch: DEV
+            environment: "Commerce React Store PRIVATE"
             assetId: 1191961c-0995-44ea-9196-1c099534eade

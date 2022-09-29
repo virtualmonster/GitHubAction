@@ -13,3 +13,4 @@ jobs:
             workspace: "C:\\Users\\stuart.walker\\HCL\\hclonetest\\BBC"
             project: BBC_SAP_Demo
             suite: Fiori
+            exportReport: "type=unified;format=pdf;folder=Exportedreport102;filename=testreport"

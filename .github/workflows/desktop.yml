@@ -1,0 +1,16 @@
+name: HCL OneTest API
+
+on: workflow_dispatch
+
+jobs:
+    API-Action:
+        name: HCL OneTest API
+        runs-on: self-hosted
+        steps:
+         - name: HCL OneTest API
+           uses: HCL-TECH-SOFTWARE/onetest-api-action@v1
+           with:
+            projectDir: "C:\Users\stuart.walker\OneDrive - HCL Technologies Ltd\Documents\GitHub\OneTest_VBooking_API\VBooking_API"
+            projectName: "VBooking Sample"
+            environment: LOCAL
+            tests: GetHotel_London

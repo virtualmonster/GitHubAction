@@ -1,0 +1,15 @@
+name: HCL OneTest WEBUI
+
+on: workflow_dispatch
+
+jobs:
+    WebUI-Action:
+        name: HCL OneTest WEBUI
+        runs-on: self-hosted
+        steps:
+         - name: HCL OneTest WEBUI
+           uses: HCL-TECH-SOFTWARE/onetest-web-action@main
+           with:
+            workspace: "C:\Users\stuart.walker\HCL\hclonetest\BBC"
+            project: BBC_SAP_Demo
+            suite: Fiori

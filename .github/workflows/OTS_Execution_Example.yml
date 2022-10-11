@@ -10,9 +10,8 @@ jobs:
          - name: Execute Test
            uses: HCL-TECH-SOFTWARE/onetest-server-action@main
            with:
-            serverUrl: https://hcl-onetest.sbx0008.play.products.pnpsofy.com/
-            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0NzU4YWQ3Ny1hODkwLTQ5MDktYjNhYS1hODhlNjYyOTc2OGIifQ.eyJpYXQiOjE2NjU0OTk4MzUsImp0aSI6IjRkNDYwODc0LTc3YWQtNGRlYS04MGYxLTgzYTgzZjIzNTk4ZCIsImlzcyI6Imh0dHBzOi8vaGNsLW9uZXRlc3Quc2J4MDAwOC5wbGF5LnByb2R1Y3RzLnBucHNvZnkuY29tL2F1dGgvcmVhbG1zL3Rlc3RzZXJ2ZXIiLCJhdWQiOiJodHRwczovL2hjbC1vbmV0ZXN0LnNieDAwMDgucGxheS5wcm9kdWN0cy5wbnBzb2Z5LmNvbS9hdXRoL3JlYWxtcy90ZXN0c2VydmVyIiwic3ViIjoiYzgwY2M2MDUtZWE4ZC00YjE2LThlMjMtYjlmMmNmYTNiNzUxIiwidHlwIjoiT2ZmbGluZSIsImF6cCI6InRlc3RzZXJ2ZXIiLCJzZXNzaW9uX3N0YXRlIjoiMjA3OGZlZmMtOGFhZS00ODFhLWIyNzktMzVkOTg5ZmI4MWJhIiwic2NvcGUiOiJ0ZXN0c2VydmVyIGVtYWlsIG9mZmxpbmVfYWNjZXNzIHByb2ZpbGUiLCJzaWQiOiIyMDc4ZmVmYy04YWFlLTQ4MWEtYjI3OS0zNWQ5ODlmYjgxYmEifQ.Em9t4Qnhy01tQgBaD3dkKZnXzFpxF_yIdLXUtOnUSg4
+            serverUrl: https://hcl-onetest.sbx0153.play.hclsofy.com/
+            offlineToken: eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICI0MzM2ODdkZS1jMjZhLTQwOTctYWMzNS02MGJmZjliYmJjMzcifQ.eyJpYXQiOjE2NjU1MDE4MTgsImp0aSI6IjY3MDI4NmVjLTM3MWEtNGZlYi1iNmRiLTdkMWE3Y2MwZjg0NCIsImlzcyI6Imh0dHBzOi8vaGNsLW9uZXRlc3Quc2J4MDE1My5wbGF5LmhjbHNvZnkuY29tL2F1dGgvcmVhbG1zL3Rlc3RzZXJ2ZXIiLCJhdWQiOiJodHRwczovL2hjbC1vbmV0ZXN0LnNieDAxNTMucGxheS5oY2xzb2Z5LmNvbS9hdXRoL3JlYWxtcy90ZXN0c2VydmVyIiwic3ViIjoiZWQxNjJiMjAtZGIwNC00ZWE1LThlMzYtYmYyYWM5YzBjYTQ5IiwidHlwIjoiT2ZmbGluZSIsImF6cCI6InRlc3RzZXJ2ZXIiLCJzZXNzaW9uX3N0YXRlIjoiNmY0ZmM2M2EtMjFjYS00YzgyLTkwMTAtNGZmNmZlMTkxM2U3Iiwic2NvcGUiOiJ0ZXN0c2VydmVyIGVtYWlsIG9mZmxpbmVfYWNjZXNzIHByb2ZpbGUiLCJzaWQiOiI2ZjRmYzYzYS0yMWNhLTRjODItOTAxMC00ZmY2ZmUxOTEzZTcifQ.ckIkJEoMRs1yma-z4h5lO5HbYpNUYaUl8OF9lFmqhAo
             teamspace: "Initial Team Space"
-            project: Webinar Sample Project
-            branch: DEV
-            assetId: 2db70d1a-2185-49db-b70d-1a218519db10
+            project: Emerald
+            assetId: f518a420-90f0-4229-98a4-2090f0a229c9

@@ -1,1 +1,18 @@
 
+name: HCL OneTest API
+
+on: workflow_dispatch
+
+jobs:
+    Emerald API Tests:
+        name: HCL OneTest API
+        runs-on: self-hosted
+        steps:
+         - name: HCL OneTest API
+           uses: HCL-TECH-SOFTWARE/onetest-api-action@v1
+           with:
+            projectDir: "C:\\Users\\stuart.walker\\OneDrive - HCL Technologies Ltd\\Documents\\GitHub\\Emerald_APIs\\Emeral_API_GuestCheckout"
+            projectName: "Emeral_API_GuestCheckout"
+            environment: PUBLIC
+            tests: RegressionSuite
+

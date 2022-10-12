@@ -1,4 +1,4 @@
-name: HCL OneTest Server
+name: HCL OneTest Server Webinar
 
 on: workflow_dispatch
 

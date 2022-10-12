@@ -5,7 +5,7 @@ on: workflow_dispatch
 jobs:
     OTS-Action:
         runs-on: ubuntu-latest
-        name: HCL OneTest Server - Webinar
+        name: HCL OneTest Server
         steps:
          - name: Execute Test
            uses: HCL-TECH-SOFTWARE/onetest-server-action@main

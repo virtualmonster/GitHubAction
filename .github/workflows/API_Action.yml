@@ -4,7 +4,7 @@ name: HCL OneTest API
 on: workflow_dispatch
 
 jobs:
-    Emerald API Tests:
+    Emerald-API-Tests:
         name: HCL OneTest API
         runs-on: self-hosted
         steps:
